@@ -12,6 +12,7 @@
 		CC259C861EB897EC007BF37B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC259C841EB897EC007BF37B /* Main.storyboard */; };
 		CC259C881EB897EC007BF37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC259C871EB897EC007BF37B /* Assets.xcassets */; };
 		CC259C8B1EB897EC007BF37B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC259C891EB897EC007BF37B /* LaunchScreen.storyboard */; };
+		CC259C931EB89974007BF37B /* SchedulePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC259C921EB89974007BF37B /* SchedulePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CC259C871EB897EC007BF37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC259C8A1EB897EC007BF37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC259C8C1EB897EC007BF37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC259C921EB89974007BF37B /* SchedulePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CC259C801EB897EC007BF37B /* AppDelegate.swift */,
 				CC259C821EB897EC007BF37B /* ViewController.swift */,
+				CC259C921EB89974007BF37B /* SchedulePicker.swift */,
 				CC259C841EB897EC007BF37B /* Main.storyboard */,
 				CC259C871EB897EC007BF37B /* Assets.xcassets */,
 				CC259C891EB897EC007BF37B /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC259C831EB897EC007BF37B /* ViewController.swift in Sources */,
+				CC259C931EB89974007BF37B /* SchedulePicker.swift in Sources */,
 				CC259C811EB897EC007BF37B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
